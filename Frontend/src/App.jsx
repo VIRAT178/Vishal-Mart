@@ -6,7 +6,7 @@ import Login from "../src/pages/Login";
 import Navbar from "../src/Components/Navbar";
 import { userDataContext } from "../src/Contexts/userContext";
 import Product from "./pages/Product";
-import Contact from "./pages/contact";
+import Contect from "./pages/contect";
 import About from "./pages/About";
 import Collections from "./pages/Collections";
 import ProductDetails from "./pages/ProductDetails";
