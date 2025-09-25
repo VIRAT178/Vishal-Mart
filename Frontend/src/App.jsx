@@ -6,7 +6,7 @@ import Login from "../src/pages/Login";
 import Navbar from "../src/Components/Navbar";
 import { userDataContext } from "../src/Contexts/userContext";
 import Product from "./pages/Product";
-import Contect from "./pages/Contact";
+import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Collections from "./pages/Collections";
 import ProductDetails from "./pages/ProductDetails";
@@ -46,7 +46,7 @@ const App = () => {
 
           <Route path="/product" element={userData ? <Product/>:<Navigate to="/login" state={{from: location.pathname}}/>} />
 
-          <Route path="/contect" element={userData ? <Contect/>:<Navigate to="/login" state={{from: location.pathname}}/>} />
+          <Route path="/contact" element={userData ? <Contact/>:<Navigate to="/login" state={{from: location.pathname}}/>} />
 
           <Route path="/about" element={userData ? <About/>:<Navigate to="/login" state={{from: location.pathname}}/>} />
 
