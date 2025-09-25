@@ -3,7 +3,7 @@ import Title from '../Components/Title';
 import SubscribeForm from '../Components/newLatter';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaBriefcase } from 'react-icons/fa';
 
-function ContactUs() {
+function Contact() {
   return (
     <div className="relative bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 min-h-screen p-8 flex flex-col items-center">
       <svg
@@ -94,4 +94,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default Contact;
